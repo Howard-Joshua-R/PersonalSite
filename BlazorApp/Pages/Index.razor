@@ -1,6 +1,5 @@
 ﻿@page "/"
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,8 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
-    <title>Small Business - Start Bootstrap Template</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,52 +21,13 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top" style="background-color:royalblue">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <font color="black" size="4">Joshua Howard</font>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">
-                            <font color="black" size="4">Home</font>
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><font color="black" size="4">About</font></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><font color="black" size="4">Services</font></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><font color="black" size="4">Contact</font></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <NavMenu />
 
     <!-- Page Content -->
     <div class="container">
 
-        <!-- Heading Row Image is 900x400-->
-        <div class="row align-items-center my-5">
-            <div class="col-lg-7">
-                <img class="img-fluid rounded mb-4 mb-lg-0" src="images/ProfilePicture.png" atl="Profile Picture">
-            </div>
-            <!-- /.col-lg-8 -->
-            <div class="col-lg-5">
-                <p>This page is built on Blazor and hosted on AWS in an Elastic Beanstalk.</p>
-                <a class="btn btn-primary" href="https://www.linkedin.com/in/howard-joshua-r/" target="_blank">LinkedIn</a>
-                <a class="btn btn-primary" href="https://github.com/Howard-Joshua-R" target="_blank">GitHub</a>                
-            </div>
-            <!-- /.col-md-4 -->
-        </div>
+        <Profile />
+
         <!-- /.row -->
         <!-- Call to Action Well -->
         <div class="card text-white bg-secondary my-5 py-4 text-center">
@@ -97,7 +55,7 @@
                     <div class="card-body">
                         <h2 class="card-title">Projects</h2>
                         <p class="card-text">Cosmic Control - Space Traffic Control</p>
-                        <img class="img-fluid rounded mb-4 mb-lg-0 align-items-center" src="images/LootKitLogoSmall.jpeg" atl="Loot Kit Studios Logo">                        
+                        <img class="img-fluid rounded mb-4 mb-lg-0 align-items-center" src="images/LootKitLogoSmall.jpeg" atl="Loot Kit Studios Logo">
                     </div>
                     <div class="card-footer">
                         <a href="#" class="btn btn-primary btn-sm">More Info</a>
