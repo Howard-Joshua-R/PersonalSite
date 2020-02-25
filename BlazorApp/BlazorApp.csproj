@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UserSecretsId>aspnet-BlazorApp-C5E8FC70-D8EA-4F8C-8FF8-22543711A83D</UserSecretsId>
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <Authors>Joshua Howard</Authors>
   </PropertyGroup>
 
   <ItemGroup>
